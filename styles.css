@@ -1,0 +1,48 @@
+body {
+    background-color: #181818;
+    font-family: "Helvetica";
+    font-size: 12px;
+}
+
+#navbar {
+   color: white;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   float: right;
+   padding: 10px;
+}
+
+.navbar_menuitem, a:link, a:visited {
+    color: white;
+    display: inline;
+    padding: 5px;
+}
+
+a:link, a:visited {
+    color: grey;
+}
+
+#center {
+    color: lightgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%
+}
+
+#footer_left {
+    padding: 10px;
+    float: left;
+}
+
+#footer_right {
+    padding: 10px;
+    float: right;
+}
