@@ -1,7 +1,6 @@
 body {
-    color: lightgray;
-    background-color: #181818;
-    font-family: "Helvetica";
+    background-color: white;
+    font-family: "Roboto", sans-serif;
     font-size: 12px;
 }
 
@@ -18,34 +17,57 @@ body {
     padding: 5px;
 }
 
+#avatar{
+    border-radius: 50%;
+}
+
 a:link {
     color: grey;
+    text-decoration: none;
 }
 
 a:visited {
     color: grey;
+    text-decoration: none;
 }
 
 #center {
-    color: lightgray;
+    color: black;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
 }
 
+#center_item {
+    padding: 15px;
+}
+
+#center input{
+    width: 550px;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid grey;
+}
+
+button {
+    width: 130px;
+    height: 30px;
+}
+
 #center a:link {
-    color: lightblue;
+    color: darkblue;
 }
 
 #center a:visited {
-    color: lightblue;
+    color: darkblue;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
-    width: 100%
+    width: 100%;
+    font-size: 14px;
 }
 
 #footer_left {
