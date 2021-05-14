@@ -1,11 +1,11 @@
 body {
+    color: lightgray;
     background-color: #181818;
     font-family: "Helvetica";
     font-size: 12px;
 }
 
 #navbar {
-   color: white;
    list-style-type: none;
    margin: 0;
    padding: 0;
@@ -13,13 +13,16 @@ body {
    padding: 10px;
 }
 
-.navbar_menuitem, a:link, a:visited {
-    color: white;
+.navbar_menuitem {
     display: inline;
     padding: 5px;
 }
 
-a:link, a:visited {
+a:link {
+    color: grey;
+}
+
+a:visited {
     color: grey;
 }
 
@@ -29,6 +32,14 @@ a:link, a:visited {
     align-items: center;
     flex-direction: column;
     width: 100%;
+}
+
+#center a:link {
+    color: lightblue;
+}
+
+#center a:visited {
+    color: lightblue;
 }
 
 #footer {
